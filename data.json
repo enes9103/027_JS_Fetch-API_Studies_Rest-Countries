@@ -1,0 +1,28 @@
+[
+  {
+    "name": {
+      "common": "Turkey",
+      "official": "Republic of Turkey",
+      "nativeName": {
+        "tur": { "official": "Türkiye Cumhuriyeti", "common": "Türkiye" }
+      }
+    },
+
+    "currencies": { "TRY": { "name": "Turkish lira", "symbol": "₺" } },
+
+    "capital": ["Ankara"],
+
+    "region": "Asia",
+
+    "languages": { "tur": "Turkish" },
+
+    "borders": ["ARM", "AZE", "BGR", "GEO", "GRC", "IRN", "IRQ", "SYR"],
+
+    "population": 84339067,
+
+    "flags": {
+      "png": "https://flagcdn.com/w320/tr.png",
+      "svg": "https://flagcdn.com/tr.svg"
+    }
+  }
+]

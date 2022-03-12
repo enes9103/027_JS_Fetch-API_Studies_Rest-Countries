@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+  color: #555;
+  /* background-color: #f7f7f7;
+  background: linear-gradient(to top left, #2e619c, #c0ceee); */
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  color: rgb(0, 0, 0);
+}
+
+main {
+  /* height: 93vh;*/
+  width: 100vw;
+}
+
+.fas {
+  padding: 0px 15px;
+}
+.neighbour::before {
+  content: 'Neighbour';
+  width: 100%;
+  position: absolute;
+  top: -4rem;
+  left: 0;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-shadow: 1px 1px 5px yellow;
+
+  color: white;
+}
+.neighbour {
+  transform: scale(0.85) translateY(1rem);
+  margin-left: 0;
+  margin-top: 50px;
+  position: relative;
+  border: 2px solid black;
+}
+
+.logo {
+  width: 100%;
+  /* background-image: url('https://clarusway.com/wp-content/uploads/2021/06/CLARUSWAY_LOGO.png'); */
+  height: auto;
+  background-size: cover;
+}
+
+.error {
+  margin-top: 20px;
+  color: black;
+  font-size: 1.3rem;
+}
+
+.country-card {
+  border: 2px solid black;
+}
+
+.input-section {
+  margin-top: 20px;
+}
+
+.alert-container {
+  margin-top: 10px;
+}
